@@ -2,24 +2,19 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return (< >
+  <div className='container'>
+    <h1>Hola mundo </h1>
+    <div className="card cardW">
+  {/* <img src="" className="card-img-top" alt="..."> */}
+  <div className="card-body">
+    <h5 className="card-title">Curso Coder house</h5>
+    <p className="card-text">Primera entrega de curso de ReactJS</p>
+    <a href="#" className="btn btn-primary">ir al curso</a>
+  </div>
+</div>
+</div>
+</>)
 }
 
 export default App;
