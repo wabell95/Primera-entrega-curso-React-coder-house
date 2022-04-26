@@ -5,9 +5,9 @@ export const Navbar = () => {
   return (
     <div class="navbar bg-base-100">
       <div class="flex-1">
-        <a class="btn btn-ghost normal-case text-xl">Agustin</a>
+        <a class="btn btn-ghost normal-case text-xl">Agustin Bellini</a>
+        <CardWidget/>
       </div>
-       <CardWidget/>
     </div>
   )
 }
